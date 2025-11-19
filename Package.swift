@@ -4,15 +4,15 @@
 import PackageDescription
 
 let package = Package(
-    name: "ChatBotSDK",
+    name: "WotNotSDK",
     platforms: [
         .iOS(.v15)
     ],
     products: [
         // Products define the executables and libraries a package produces, making them visible to other packages.
         .library(
-            name: "ChatBotSDK",
-            targets: ["ChatBotSDK"]),
+            name: "WotNotSDK",
+            targets: ["WotNotSDK"]),
     ],
     dependencies: [
         // Dependencies declare other packages that this package depends on.
@@ -23,9 +23,9 @@ let package = Package(
         // Targets are the basic building blocks of a package. A target can define a module or a test suite.
         // Targets can depend on other targets in this package, and on products in packages this package depends on.
         .binaryTarget(
-            name: "ChatBotSDK",
-            url: "https://github.com/wotnotbot/test-ios-chatbot/releases/download/v1.0.0/ChatBotSDK.xcframework.zip",
-            checksum: "3c6fb4f18560325cfd63a9793c63e4614cbd72143c45e193ac83c730b95c17ec"
+            name: "WotNotSDK",
+            url: "https://github.com/wotnotbot/test-ios-chatbot/releases/download/v1.0.0/WotNotSDK.xcframework.zip",
+            checksum: "bf1c6348adc6b6db941960a621440f14d1f9f56952f0535d257540837449c164"
         ),
     ]
 )
