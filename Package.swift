@@ -25,7 +25,7 @@ let package = Package(
 .binaryTarget(
     name: "WotNotSDK",
     url: "https://github.com/wotnotbot/ios-sdk/releases/download/v1.0.0/WotNotSDK.xcframework.zip",
-    checksum: "7b54c96540c2c2db98fef4a7535c6c779ee2eb85416bf11517586982901aae02"
+    checksum: "62e8a48734719e8a8e2d89c1b5fd4c9109943be969647517adcc044a10ba6d7f"
 ),
     ]
 )
