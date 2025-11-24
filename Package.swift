@@ -22,10 +22,10 @@ let package = Package(
     targets: [
         // Targets are the basic building blocks of a package. A target can define a module or a test suite.
         // Targets can depend on other targets in this package, and on products in packages this package depends on.
-       .binaryTarget(
-            name: "WotNotSDK",
-            url: "https://github.com/wotnotbot/ios-sdk/releases/download/v1.0.0/WotNotSDK.xcframework.zip",
-            checksum: "b064bbfb1b66d8935ab6d03e70e84d3c5fba80cf638f8ab59f9a28ea84e9de1f"
+.binaryTarget(
+    name: "WotNotSDK",
+    url: "https://github.com/wotnotbot/ios-sdk/releases/download/v1.0.0/WotNotSDK.xcframework.zip",
+    checksum: "29a58374ed702a85f8382f615ea09f66e707dad2caaf52610bfa25fed14023eb"
 ),
     ]
 )
